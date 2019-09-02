@@ -1,0 +1,112 @@
+﻿@using Microsoft.AspNet.Identity
+@using FarmTradeApp.Helpers
+
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+    <ul class="nav navbar-nav navbar-right">
+            @if (User.IsInRole(RoleName.Administrator))
+             {
+                <li>
+                    @*New verification form notification*@
+                    <a href="#" title="Επιβεβαιώσεις χρηστών">
+                        <i class="glyphicon glyphicon-cloud-upload"></i>
+                        <span class="badge hide"></span>
+                    </a>
+                </li>
+                <li>
+                 @*New Contact form notification*@
+                    <a href="#" title="Επικοινωνία χρηστών">
+                        <i class="glyphicon glyphicon-inbox"></i>
+                        <span class="badge hide"></span>
+                    </a>
+                </li>
+             }
+            <li>
+                @*New personal notification*@
+                <a href="#" title="Μηνύματα">
+                    <i class="glyphicon glyphicon-envelope"></i>
+                    <span class="badge hide"></span>
+                </a>
+            </li>
+            <li class="notifications">
+                @*New Global notification*@
+                <a href="#" title="Ειδοποιήσεις">
+                    <i class="glyphicon glyphicon-globe"></i>
+                    <span class="badge js-notification-count hide"></span>
+                </a>
+            </li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@User.Identity.GetUserName() <span class="caret"></span></a>
+                <ul class="dropdown-menu col-xs-12" role="menu">
+                    <li>@Html.ActionLink("Ρυθμίσεις Ασφαλειας", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })</li>
+                    <li>@Html.ActionLink("Στοιχεία Προφίλ", "UpdatePersonalDetails", "Manage")</li>
+                    <li>@Html.ActionLink("Verification Form", "VerificationForm", "Home")</li>
+                    @if (!User.IsInRole(RoleName.Administrator))
+                    {
+                        <li>@Html.ActionLink("Οι Καταχωρίσεις μου", "MyMarketEntries", "Manage")</li>
+                        <li>@Html.ActionLink("Οι Συμφωνίες μου", "MyTradeMatches", "Manage")</li>
+                    }
+                    else
+                    {
+                        <li>@Html.ActionLink("Διαχείριση Market", "ManageAuctions", "Manage")</li>
+                    }
+                    <li role="separator" class="divider"></li>
+                    <li><a href="javascript:document.getElementById('logoutForm').submit()">Αποσύνδεση</a></li>
+                </ul>
+            </li>
+    </ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Εγγραφή", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Σύνδεση", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}
+
+@*@using Microsoft.AspNet.Identity
+@using FarmTradeApp.Helpers
+
+@if (Request.IsAuthenticated)
+{
+    using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+    {
+        @Html.AntiForgeryToken()
+
+<ul class="nav navbar-nav navbar-right">
+    <li class="notifications">
+        <a href="#">
+
+            <i class="glyphicon glyphicon-globe"></i>
+            <span class="badge js-notification-count hide"></span>
+        </a>
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">@User.Identity.GetUserName() <span class="caret"></span></a>
+        <ul class="dropdown-menu col-xs-12" role="menu">
+            <li>@Html.ActionLink("Ρυθμίσεις", "Index", "Manage", routeValues: null, htmlAttributes: new { title = "Manage" })</li>
+            @if (!User.IsInRole(RoleName.Administrator))
+            {
+                <li>@Html.ActionLink("Οι Καταχωρίσεις μου", "MyMarketEntries", "Manage")</li>
+            }
+            else
+            {
+                <li>@Html.ActionLink("Διαχείριση Market", "ManageAuctions", "Manage")</li>
+            }
+            <li><a href="javascript:document.getElementById('logoutForm').submit()">Log off</a></li>
+        </ul>
+    </li>
+</ul>
+    }
+}
+else
+{
+    <ul class="nav navbar-nav navbar-right">
+        <li>@Html.ActionLink("Εγγραφή", "Register", "Account", routeValues: null, htmlAttributes: new { id = "registerLink" })</li>
+        <li>@Html.ActionLink("Σύνδεση", "Login", "Account", routeValues: null, htmlAttributes: new { id = "loginLink" })</li>
+    </ul>
+}*@

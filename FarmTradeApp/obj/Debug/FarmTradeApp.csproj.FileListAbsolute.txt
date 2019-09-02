@@ -1,0 +1,962 @@
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csprojAssemblyReference.cache
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CoreCompileInputs.cache
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll.config
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.pdb
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe.config
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.rsp
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe.config
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.rsp
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.AppContext.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Console.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe.config
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.rsp
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\EntityFramework.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Owin.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\WebGrease.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.pdb
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\EntityFramework.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CopyComplete
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.pdb
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\AutoMapper.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\AutoMapper.pdb
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\AutoMapper.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.InitialModel.resources
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.GenerateResource.cache
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.CreateAdminUserAndRole.resources
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.SeedUserRoles.resources
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddPropertiesToUser.resources
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddLocationAndStorageModels.resources
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddProductAndCategoryAndQuality.resources
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.PopulateProductQualities.resources
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddFinalProductModel.resources
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddMarketEntryAndAuctionModels.resources
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.dll
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.xml
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddTradeMatchAndTradeSummaryModels.resources
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.ChangeProductCategoryAndQualityFKTypes.resources
+C:\Users\arist\projects\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddIsRemovedToMarketEntry.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll.config
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.pdb
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe.config
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.rsp
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe.config
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.rsp
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.AppContext.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Console.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe.config
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.rsp
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\AutoMapper.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\EntityFramework.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Owin.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\WebGrease.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\AutoMapper.pdb
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\AutoMapper.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.pdb
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\EntityFramework.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csprojAssemblyReference.cache
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.InitialModel.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.CreateAdminUserAndRole.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.SeedUserRoles.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddPropertiesToUser.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddLocationAndStorageModels.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddProductAndCategoryAndQuality.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.PopulateProductQualities.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddFinalProductModel.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddMarketEntryAndAuctionModels.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddTradeMatchAndTradeSummaryModels.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.ChangeProductCategoryAndQualityFKTypes.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddIsRemovedToMarketEntry.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.GenerateResource.cache
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CoreCompileInputs.cache
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CopyComplete
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.pdb
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddNotifications.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddTradeMatchToNotification.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.DeleteTradeSummaryFromNotification.resources
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.ValueTuple.dll
+C:\Users\ANGELIS\Desktop\FarmTradeApp\FarmTradeApp\bin\System.ValueTuple.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll.config
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.pdb
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe.config
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.rsp
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe.config
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.rsp
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.AppContext.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Console.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe.config
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.rsp
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\AutoMapper.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\EntityFramework.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Owin.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.ValueTuple.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\WebGrease.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\AutoMapper.pdb
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\AutoMapper.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.ValueTuple.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.pdb
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\EntityFramework.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csprojAssemblyReference.cache
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.GenerateResource.cache
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CoreCompileInputs.cache
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CopyComplete
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.pdb
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll.config
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.pdb
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe.config
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.rsp
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe.config
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.rsp
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.AppContext.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Console.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe.config
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.rsp
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\AutoMapper.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\EntityFramework.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Owin.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.ValueTuple.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\WebGrease.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\AutoMapper.pdb
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\AutoMapper.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.ValueTuple.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.pdb
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\EntityFramework.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csprojAssemblyReference.cache
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.InitialModel.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.CreateAdminUserAndRole.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.SeedUserRoles.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddPropertiesToUser.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddLocationAndStorageModels.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddProductAndCategoryAndQuality.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.PopulateProductQualities.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddFinalProductModel.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddMarketEntryAndAuctionModels.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddTradeMatchAndTradeSummaryModels.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.ChangeProductCategoryAndQualityFKTypes.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddIsRemovedToMarketEntry.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddNotifications.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddTradeMatchToNotification.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.DeleteTradeSummaryFromNotification.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.ApplicationUserChanges.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.GenerateResource.cache
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CoreCompileInputs.cache
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CopyComplete
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.dll
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.pdb
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.addmigrationStorageChanges.resources
+C:\Users\arist\Desktop\diafora\pc\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Migrations.AddUsersSellerBuyer.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Castle.Core.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Conventions.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Factory.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Mvc.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.WebApi.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\WebActivatorEx.dll
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Conventions.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Factory.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Mvc.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.WebApi.xml
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.InitialModel.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.CreateAdminUserAndRole.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.SeedUserRoles.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddPropertiesToUser.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddLocationAndStorageModels.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddProductAndCategoryAndQuality.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.PopulateProductQualities.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddFinalProductModel.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddMarketEntryAndAuctionModels.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddTradeMatchAndTradeSummaryModels.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.ChangeProductCategoryAndQualityFKTypes.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddIsRemovedToMarketEntry.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddNotifications.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddTradeMatchToNotification.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.DeleteTradeSummaryFromNotification.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.ApplicationUserChanges.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.addmigrationStorageChanges.resources
+C:\Users\arist\Desktop\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddUsersSellerBuyer.resources
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll.config
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.pdb
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe.config
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.rsp
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe.config
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.rsp
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.AppContext.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Console.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe.config
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.rsp
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\AutoMapper.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Castle.Core.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\EntityFramework.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Conventions.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Factory.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Mvc.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.WebApi.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Owin.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.ValueTuple.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\WebActivatorEx.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\WebGrease.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\AutoMapper.pdb
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\AutoMapper.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Conventions.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Factory.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Mvc.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.WebApi.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.ValueTuple.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.pdb
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\EntityFramework.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csprojAssemblyReference.cache
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CoreCompileInputs.cache
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CopyComplete
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.dll
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.pdb
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.InitialModel.resources
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.GenerateResource.cache
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.CreateRoles.resources
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddAdmin.resources
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.addBuyerSeller.resources
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.PopulateProductQualities.resources
+C:\Users\arist\Downloads\New folder\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddContactsModels.resources
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll.config
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\FarmTradeApp.pdb
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.exe.config
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\csc.rsp
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.exe.config
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\csi.rsp
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.AppContext.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Console.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.exe.config
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\vbc.rsp
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\AutoMapper.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Castle.Core.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\EntityFramework.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Conventions.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Factory.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Mvc.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.WebApi.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Owin.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.ValueTuple.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\WebActivatorEx.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\WebGrease.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\AutoMapper.pdb
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\AutoMapper.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Conventions.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Extensions.Factory.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.Mvc.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Ninject.Web.WebApi.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Net.Http.Formatting.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.ValueTuple.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Http.WebHost.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Helpers.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Mvc.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Optimization.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.Razor.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Newtonsoft.Json.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Antlr3.Runtime.pdb
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\EntityFramework.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\EntityFramework.SqlServer.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csprojAssemblyReference.cache
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.InitialModel.resources
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.CreateRoles.resources
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddAdmin.resources
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.addBuyerSeller.resources
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.PopulateProductQualities.resources
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddContactsModels.resources
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.GenerateResource.cache
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CoreCompileInputs.cache
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CopyComplete
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.dll
+C:\Users\arist\Desktop\Final\FarmTradeApp\FarmTradeApp\obj\Debug\FarmTradeApp.pdb
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\FarmTradeApp.dll.config
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\FarmTradeApp.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\FarmTradeApp.pdb
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\csc.exe
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\csc.exe.config
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\csc.rsp
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\csi.exe
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\csi.exe.config
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\csi.rsp
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.AppContext.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Console.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.IO.Compression.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.IO.Pipes.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Security.Claims.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.ValueTuple.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Xml.XPath.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\vbc.exe
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\vbc.exe.config
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\vbc.rsp
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\VBCSCompiler.exe
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Antlr3.Runtime.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\AutoMapper.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Castle.Core.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\EntityFramework.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\EntityFramework.SqlServer.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Newtonsoft.Json.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Extensions.Conventions.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Extensions.Factory.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Web.Common.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Web.Common.WebHost.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Web.Mvc.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Web.WebApi.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Owin.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Net.Http.Formatting.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.ValueTuple.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Helpers.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Http.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Http.WebHost.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Mvc.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Optimization.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Razor.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.WebPages.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\WebActivatorEx.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\WebGrease.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\AutoMapper.pdb
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\AutoMapper.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Extensions.Conventions.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Extensions.Factory.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Web.Common.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Web.Common.WebHost.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Web.Mvc.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Ninject.Web.WebApi.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Net.Http.Formatting.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.ValueTuple.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Http.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Http.WebHost.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Helpers.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Mvc.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Optimization.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.Razor.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.WebPages.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Newtonsoft.Json.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Antlr3.Runtime.pdb
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\EntityFramework.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\EntityFramework.SqlServer.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.csprojAssemblyReference.cache
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.InitialModel.resources
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.CreateRoles.resources
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddAdmin.resources
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.addBuyerSeller.resources
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.PopulateProductQualities.resources
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.Persistence.Migrations.AddContactsModels.resources
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.GenerateResource.cache
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CoreCompileInputs.cache
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.csproj.CopyComplete
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.dll
+C:\Users\ks-Desktop\Desktop\FarmTradeApp-FinalVersion\FarmTradeApp\obj\Debug\FarmTradeApp.pdb

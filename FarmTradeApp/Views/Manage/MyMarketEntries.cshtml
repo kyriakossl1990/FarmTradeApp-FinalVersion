@@ -1,0 +1,50 @@
+﻿@using Microsoft.AspNet.Identity;
+
+@{
+    ViewBag.Title = "Οι καταχωρίσεις μου";
+}
+
+<h2>Οι καταχωρίσεις μου</h2>
+
+<div class="col-md-1">
+    @*@Html.ActionLink("Νέα καταχώριση", "New", "MarketEntries", null, new { @class = "btn btn-primary" })*@
+    <input type="button" class="btn" value="Νέα Καταχώριση" style="background-color: #3eb16f" onclick="location.href='@Url.Action("New", "MarketEntries")'" />
+</div>
+
+<br /><br />
+
+<div class="row">
+    <div class="col-md-12">
+        <table id="my-marketEntries" class="table table-responsive table-hover table-bordered display" style="width:100%">
+            <thead>
+                <tr>
+                    <th class="text-center">#</th>
+                    <th class="text-center">MARKET</th>
+                    <th class="text-center">ΠΡΟΪΟΝ</th>
+                    <th></th>
+                    <th class="text-center">ΠΟΣΟΤΗΤΑ (kg)</th>
+                    <th class="text-center">ΤΙΜΗ (kg)</th>
+                    <th class="text-center">ΗΜΕΡ. ΠΑΡΑΔΟΣΗΣ</th>
+                    <th class="text-center">ΤΕΛΕΥΤΑΙΑ ΕΠΕΞΕΡΓΑΣΙΑ</th>
+                    <th>ΕΠΕΞΕΡΓΑΣΙΑ</th>
+                    <th>ΛΕΠΤΟΜΕΡΕΙΕΣ</th>
+                    <th>ΑΦΑΙΡΕΣΗ</th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            var userId = '@User.Identity.GetUserId()';
+            var editAction = '@Url.Action("Edit", "MarketEntries")';
+            var detailsAction = '@Url.Action("Details", "MarketEntries")';
+
+            MyMarketEntriesController.init("#my-marketEntries", userId, editAction, detailsAction);
+            MarketEntriesController.init("#my-marketEntries");
+        });
+    </script>
+}

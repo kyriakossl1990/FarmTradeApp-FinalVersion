@@ -1,0 +1,16 @@
+﻿@model FarmTradeApp.Core.Models.Contacts.VerificationForm
+
+@{
+    ViewBag.Title = "VerificationForm";
+}
+
+@if (!Model.IsSubmitted)
+{
+    <h2>Verification Form</h2>
+}
+else
+{
+    <span class="text-success">
+        Your application has been submitted with id @Model.UserId
+    </span>
+}

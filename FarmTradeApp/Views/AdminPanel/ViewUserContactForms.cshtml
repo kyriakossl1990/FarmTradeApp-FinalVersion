@@ -1,0 +1,54 @@
+﻿@model FarmTradeApp.Core.Models.Contacts.ContactForm
+@{
+    ViewBag.Title = "ViewUserContactForms";
+}
+
+<h2>@Model.Sender.FullName Contact Form</h2>
+@using (Html.BeginForm("MarkAsViewed", "AdminPanel", FormMethod.Post))
+{
+    @Html.AntiForgeryToken()
+
+        @Html.HiddenFor(cf => cf.Id)
+
+    <table class="table">
+
+        <tr>
+            <td><p>Θέμα</p></td>
+            <td>@Html.DisplayFor(Model => Model.Subject)</td>
+        </tr>
+
+        <tr>
+            <td><p>Κατηγορία</p></td>
+            <td>@Html.DisplayFor(Model => Model.ContactFormType)</td>
+        </tr>
+
+        <tr>
+            <td><p>Time Sented</p></td>
+            <td>@Html.DisplayFor(Model => Model.TimeFormSent)</td>
+        </tr>
+
+        <tr>
+            <td><p>Subject</p></td>
+            <td>@Html.DisplayFor(Model => Model.Subject)</td>
+        </tr>
+
+        <tr>
+            <td><p>Message</p></td>
+            <td>@Html.DisplayFor(Model => Model.Message)</td>
+        </tr>
+
+
+    </table>
+    if (!Model.IsAnswered)
+    {
+        <input type="submit" value="Mark Form As Read" class="btn btn-default" />
+    }
+    else
+    {
+        <div class="alert alert-danger">
+            This form has been already readed.<br />
+            @Html.ActionLink("Go Back", "ViewAllContactForms")
+        </div>
+    }
+
+}

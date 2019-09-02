@@ -1,0 +1,108 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title Farm Trade</title>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700,700i&display=swap&subset=greek,greek-ext" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/20a7124d26.js"></script>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    @Html.Partial("_NavigationBar")
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+    <div class="clear" style="clear: both; height: 60px;"></div>
+    @if (IsSectionDefined("customFooter"))
+    {
+        @RenderSection("customFooter")
+    }
+    else
+    {
+        @Html.Partial("_Footer")
+
+        @*<div id="footer" style="bottom: 0; color:white; position: fixed; background-color: #53c282; text-align: center; width: 100%;">
+                <hr style="width:100%; margin: 0;" />
+                <footer>
+                    <p><strong>&copy; @DateTime.Now.Year .Federal .Agricultural .Relational .Model</strong></p>
+                </footer>
+            </div>*@
+
+    }
+
+    @Scripts.Render("~/bundles/lib")
+    @Scripts.Render("~/bundles/app")
+    @RenderSection("scripts", required: false)
+    @if (User.IsInRole("Buyer"))
+    {
+
+        <script type="text/not-template" id="notifications-template">
+            <ul class="notifications">
+                <%
+                _.each(notifications, function(notification) {
+                if(notification.type == 1) { %>
+                <li>Επιτυχής συμφωνία αγοράς του προϊόντος <span class="highlight"><%= notification.tradeMatch.buyerEntry.finalProduct.product.name%></span> από τον χρήστη <span class="highlight"><%= notification.tradeMatch.sellerEntry.user.fullName%>.</span><p>Αναμένεται διεκπεραίωση πληρωμών.</p></li>
+                <% }
+                else if(notification.type == 2 || notification.type == 3 || notification.type == 4){%>
+                <li><%= notification.tradeMatch.tradeSummary.details%></li>
+                <%  }
+                })
+                %>
+            </ul>
+
+        </script>
+    }
+    @if (User.IsInRole("Seller"))
+    {
+
+        <script type="text/not-template" id="notifications-template">
+            <ul class="notifications">
+                <%
+                _.each(notifications, function(notification) {
+                if(notification.type == 1) { %>
+                <li>Επιτυχής συμφωνία πώλησης του προϊόντος <span class="highlight"><%= notification.tradeMatch.buyerEntry.finalProduct.product.name%></span> στον χρήστη <span class="highlight"><%= notification.tradeMatch.buyerEntry.user.companyName%></span>. <p>Αναμένεται διεκπεραίωση πληρωμών.</p></li>
+                <% }
+                else if(notification.type == 2 || notification.type == 3 || notification.type == 4){%>
+                <li><%= notification.tradeMatch.tradeSummary.details%></li>
+                <%  }
+                })
+                %>
+            </ul>
+
+        </script>
+    }
+
+    <script>
+        $(document).ready(function () {
+            $.getJSON("/api/notifications", function (notifications) {
+                if (notifications.length == 0)
+                    return;
+                $(".js-notification-count")
+                    .text(notifications.length)
+                    .removeClass("hide")
+                    .addClass("animated zoomInUp");
+                $(".notifications").popover({
+                    html: true,
+                    title: "Ειδοποιήσεις",
+                    content: function () {
+                        var compiled = _.template($("#notifications-template").html())
+                        return compiled({ notifications: notifications });
+                    },
+                    placement: "bottom"
+                }).on("shown.bs.popover", function () {
+                    //console.log("giaaaaa")
+                    $.post("/api/notifications")
+                        .done(function () {
+                            $(".js-notifications-count")
+                                .text("")
+                                .addClass("hide");
+                        });
+                });
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,174 @@
+﻿@model FarmTradeApp.Core.ViewModels.Account.RegisterViewModel
+@{
+    ViewBag.Title = "Εγγραφή";
+}
+
+<head>
+    <style>
+        body {
+            height: 100%;
+            background-image: url(../../Content/img/bg_dark.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+            background-size: cover;
+            background-color: black;
+            color: white;
+        }
+
+        .jumbotron {
+            background: unset;
+        }
+
+        h2 {
+            font-size: 48px;
+            color: white;
+            padding-top: 25px;
+            padding-bottom: 25px;
+        }
+
+        h3 {
+            color: white;
+            font-size: 25px;
+        }
+
+        .alert-info {
+            color: red;
+            background-color: #bdd8e6ad;
+            /* border-color: #2fdc7c61; */
+        }
+    </style>
+</head>
+
+<h2>Εγγραφή</h2>
+
+@using (Html.BeginForm("Register", "Account", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+    @Html.AntiForgeryToken()
+    <h4>Δημιουργήστε Λογαριασμό</h4>
+    <p class="required-fields alert alert-info col-md-3">Όλα τα πεδία είναι υποχρεωτικά</p>
+    <br /><br />
+
+    @Html.ValidationSummary("", new { @class = "text-danger" })
+
+    <h4 class="form-header"><strong>Προσωπικά Στοιχεία</strong></h4>
+    <div class="form-group">
+        @Html.LabelFor(m => m.FirstName, "Όνομα", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.FirstName, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.LastName, "Επώνυμο", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.LastName, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.CompanyName, "Όνομα Εταιρείας", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.CompanyName, new { @class = "form-control" })
+        </div>
+    </div>
+    <hr />
+
+    <h4 class="form-header"><strong>Πληροφορίες Σύνδεσης</strong></h4>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Email, new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Email, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Password, "Κωδικός", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.ConfirmPassword, "Επαλήθευση Κωδικού", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.PasswordFor(m => m.ConfirmPassword, new { @class = "form-control" })
+        </div>
+    </div>
+    <hr />
+
+    <h4 class="form-header"><strong>Στοιχεία Επικοινωνίας</strong></h4>
+    <div class="form-group">
+        @Html.LabelFor(m => m.PhoneNumber, "Κινητό Τηλέφωνο", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.LandlineNumber, "Σταθερό Τηλέφωνο", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.LandlineNumber, new { @class = "form-control" })
+        </div>
+    </div>
+    <hr />
+
+    <h4 class="form-header"><strong>Στοιχεία Διεύθυνσης</strong></h4>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Address, "Διεύθυνση Κατοικίας", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.Address, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.City, "Πόλη", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.City, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.County, "Δήμος", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.County, new { @class = "form-control" })
+        </div>
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.PostCode, "Τ.Κ.", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.PostCode, new { @class = "form-control" })
+        </div>
+    </div>
+    <hr />
+
+    <h4 class="form-header"><strong>Λοιπά Στοιχεία</strong></h4>
+    <div class="form-group">
+        @Html.LabelFor(m => m.Role, "Ρόλος: ", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            <div class="col-md-2">
+                @Html.RadioButtonFor(m => m.Role, "Buyer", new { @checked = "checked" })
+                Αγοραστής
+            </div>
+            <div class="col-md-2">
+                @Html.RadioButtonFor(m => m.Role, "Seller")
+                Πωλητής
+            </div>
+            @Html.ValidationMessageFor(m => m.Role)
+        </div>
+    </div>
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.TaxNumber, "Α.Φ.Μ.", new { @class = "col-md-2 control-label" })
+        <div class="col-md-10">
+            @Html.TextBoxFor(m => m.TaxNumber, new { @class = "form-control" })
+        </div>
+    </div>
+    <hr />
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" class="btn btn-lg btn-primary" value="Εγγραφή" />
+        </div>
+    </div>
+}
+
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

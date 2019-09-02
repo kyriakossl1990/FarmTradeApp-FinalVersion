@@ -1,0 +1,49 @@
+﻿@model FarmTradeApp.Core.ViewModels.MarketPlace
+@{
+    ViewBag.Title = "ManageAuctions";
+}
+
+<head>
+    <style>
+        h2 {
+            font-size: 39px;
+        }
+    </style>
+</head>
+
+<h2 style="text-align: center;">Διαχείριση Τρέχουσας Αγοράς</h2>
+<hr />
+
+<div class="row">
+    <div id="countdown" class="col-md-12">
+        @if (Model.IsActive)
+        {
+            <h4 id="head">Αυτή η αγορά κλείνει σε:</h4>
+            <ul>
+                <li><span id="days"></span>μέρες</li> |
+                <li><span id="hours"></span>ώρες</li> |
+                <li><span id="minutes"></span>λεπτά</li> |
+                <li><span id="seconds"></span>δευτερόλεπτα</li>
+            </ul>
+        }
+        else
+        {
+            <h3>Αυτή η αγορά έκλεισε:</h3>
+            <h2>@Model.EndTimeGreek</h2>
+            <button class="btn btn-info js-settle" type="button">Διεκπεραίωση αγοράς</button>
+        }
+
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            AuctionManageController.init();
+
+            var endTime = '@Model.EndTime';
+            countdownTimer.clock(endTime);
+        }); 
+    </script>
+}

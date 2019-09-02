@@ -1,0 +1,68 @@
+﻿@using Microsoft.AspNet.Identity
+@using FarmTradeApp.Helpers
+
+@model  IEnumerable<FarmTradeApp.Core.Models.Contacts.ContactForm>
+@{
+    ViewBag.Title = "ViewAllContactForms";
+}
+
+<h2>View All Contact Forms</h2>
+<p class="text-success">@ViewBag.StatusMessage</p>
+<table id="AllContactForms" class="table">
+    <thead>
+        <tr>
+            <th>
+                Όνομα Αποστολέα
+            </th>
+            <th>
+                Θέμα
+            </th>
+            <th>
+                Ημερομηνία Αποστολής
+            </th>
+            <th>
+                Κατηγορία
+            </th>
+            <th>
+                Κατάσταση
+            </th>
+            <th>
+                Action
+            </th>
+        </tr>
+    </thead>
+
+
+    @foreach (var cf in Model)
+    {
+        <tr>
+            <td>
+                @Html.ActionLink(cf.Sender.FullName, "ViewUser", new { Id = cf.SenderId })
+            </td>
+            <td>
+                @Html.DisplayFor(Model => cf.Message)
+            </td>
+            <td>
+                @Html.DisplayFor(Model => cf.TimeFormSent)
+            </td>
+            <td>
+                @cf.ContactFormType.GetDisplayName()
+            </td>
+            <td>
+                @if (cf.IsAnswered)
+                {
+                    <i class="fas fa-check fa-2x" style="color:forestgreen"></i>
+                }
+                else
+                {
+                    <i class="far fa-envelope fa-2x" style="color:red"></i>
+                }
+            </td>
+            <td>
+                @Html.ActionLink("Προβολή", "ViewUserContactForms", new { Id = cf.Id })
+            </td>
+
+        </tr>
+
+    }
+</table>

@@ -1,0 +1,39 @@
+﻿@model FarmTradeApp.Core.ViewModels.StorageFormViewModel
+@{
+    ViewBag.Title = "StorageForm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Φόρμα Αποθήκης</h2>
+
+@using (Html.BeginForm("Save", "Storages"))
+{
+    @Html.AntiForgeryToken()
+    @Html.HiddenFor(s => s.Storage.Id)
+    <div class="form-group">
+        @Html.LabelFor(s => s.Storage.Name)
+        @Html.TextBoxFor(s => s.Storage.Name, new { @class = "form-control" })
+        @Html.ValidationMessageFor(s => s.Storage.Name)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(s => s.Storage.Street)
+        @Html.TextBoxFor(s => s.Storage.Street, new { @class = "form-control" })
+        @Html.ValidationMessageFor(s => s.Storage.Street)
+    </div>
+    @*<div class="form-group">
+        @Html.LabelFor(s => s.Storage.Number)
+        @Html.TextBoxFor(s => s.Storage.Number, new { @class = "form-control" })
+        @Html.ValidationMessageFor(s => s.Storage.Number)
+    </div>*@
+    <div class="form-group">
+        @Html.LabelFor(s => s.Storage.LocationId)
+        @Html.DropDownListFor(s => s.Storage.LocationId, new SelectList(Model.Locations, "Id", "City"), "Select", new { @class = "form-control" })
+        @Html.ValidationMessageFor(s => s.Storage.LocationId)
+    </div>
+    <button type="submit" class="btn btn-primary">Save</button>
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}

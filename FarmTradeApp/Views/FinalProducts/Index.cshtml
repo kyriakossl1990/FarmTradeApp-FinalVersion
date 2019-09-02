@@ -1,0 +1,92 @@
+﻿@model IEnumerable<FarmTradeApp.Core.Models.Products.FinalProduct>
+@using FarmTradeApp.Helpers
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Αποθηκευμένη Σοδειά</h2> <br />
+
+@if (!Model.Any())
+{
+    <p>Δεν υπάρχουν ακόμα τελικά προϊόντα προς προβολή</p>
+}
+else
+{
+    <table class="table table-bordered table-hover">
+        <thead>
+            <tr>
+                <th style="text-align:center">Farmer</th>
+                <th style="text-align:center">Product</th>
+                <th style="text-align:center">Quality</th>
+                <th style="text-align:center">Quantity</th>
+                <th style="text-align:center">Location</th>
+                <th style="text-align:center">Organic</th>
+                <th style="text-align:center">Import Date</th>
+                <th style="text-align:center">Comments</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var finalProduct in Model)
+            {
+                <tr>
+                    <td style="text-align: center">
+                        @{
+                            var farmerFullName = $"{finalProduct.User.FirstName} {finalProduct.User.LastName}";
+                        }
+                        @farmerFullName
+                    </td>
+
+                    @{
+                        var product = finalProduct.Product.Name + " - " + finalProduct.Product.Category.Name;
+                    }
+                    <td style="text-align: center">@product</td>
+                    <td style="text-align: center">@finalProduct.Quality.Grade</td>
+                    <td style="text-align: center"> @finalProduct.Quantity kg </td>
+                    <td style="text-align:center">@finalProduct.LocationId</td>
+                    <td style="text-align:center">
+                        @{
+                            var organic = "";
+                            if (finalProduct.IsOrganic == true)
+                            {
+                                organic = "Yes";
+                            }
+                            else
+                            {
+                                organic = "No";
+                            }
+                        }
+                        @organic
+
+                    </td>
+                    <td style="text-align:center">@(finalProduct.ImportDateToStorage?.ToShortDateString() ?? "")</td>
+                    <td style="text-align:center">
+                        @{
+                            var comments = "";
+                            if (finalProduct.Comments == null)
+                            {
+                                comments = " - ";
+                                @comments
+                            }
+                            else
+                            {
+                                comments = finalProduct.Comments;
+                                @comments
+                            }
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@if (!User.IsInRole(RoleName.Administrator))
+{
+    <p>
+        @Html.ActionLink("Καταχώριση Σοδειάς", "New", "FinalProducts", null, new { @class = "btn btn-primary" })
+
+    </p>
+}
+

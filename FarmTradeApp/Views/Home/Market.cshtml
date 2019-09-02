@@ -1,0 +1,216 @@
+﻿@using Microsoft.AspNet.Identity
+@model FarmTradeApp.Core.ViewModels.MarketPlace
+
+@{
+    ViewBag.Title = "Market";
+}
+
+<head>
+    <style>
+        h2 {
+            font-size: 40px;
+        }
+    </style>
+</head>
+
+@*<head>
+        <style>
+        button, input, optgroup, select, textarea {
+        margin: 0;
+        /* font: inherit; */
+        /* color: inherit; */
+        background-color: transparent;
+        color: white;
+    }
+            body > .container {
+                padding-left: 0;
+                padding-right: 0;
+            }
+
+            .boot1 {
+                padding-left: 0;
+                padding-right: 15px;
+                width: 585px;
+            }
+
+            .boot2 {
+                padding-right: 0;
+                padding-left: 15px;
+                width: 585px;
+            }
+
+            .mar {
+                color: brown;
+            }
+
+            table.dataTable tbody tr.selected {
+                background-color: #B0BED9
+            }
+
+            th {
+                text-align: center;
+                font-size: 12px;
+                width: 500px;
+                BACKGROUND-COLOR: #d7e4ef;
+            }
+
+            td {
+                text-align: center;
+                font-size: 18px;
+            }
+
+            .dataTables_length, .dataTables_filter, .dataTables_info,
+            .dataTables_paginate, .paging_simple_numbers {
+                font-size: 14px;
+            }
+
+            .par1, .par2 {
+                text-align: center;
+                font-size: 20px;
+                font-weight: 700;
+                border: 1px solid;
+                border-color: white;
+            }
+
+            smalltext {
+                padding-top: 5px;
+                font-size: 16px;
+            }
+        </style>
+    </head>*@
+
+<div class="container">
+    <div class="row">
+        <div id="countdown" class="col-md-12">
+            @if (Model.IsActive)
+            {
+                <h4 id="head">Αυτή η αγορά κλείνει σε:</h4>
+                <ul>
+                    <li><span id="days"></span>μέρες</li> |
+                    <li><span id="hours"></span>ώρες</li> |
+                    <li><span id="minutes"></span>λεπτά</li> |
+                    <li><span id="seconds"></span>δευτερόλεπτα</li>
+                </ul>
+            }
+            else
+            {
+                <h3>Αυτή η αγορά έκλεισε:</h3>
+                <h2>@Model.EndTimeGreek</h2>
+            }
+        </div>
+    </div>
+
+    <div class="row">
+        @if (Model.IsActive)
+        {
+            <div id="new" class="col-md-1">
+                @*@Html.ActionLink("Νέα καταχώριση", "New", "MarketEntries", null, new { @class = "btn btn-primary" })*@
+                <input type="button" class="btn" value="Νέα Καταχώριση" style="background-color: #3eb16f;" onclick="location.href='@Url.Action("New", "MarketEntries")'" />
+            </div>
+        }
+
+        <div class="form-inline @(Model.IsActive ? "col-md-offset-6" : "col-md-offset-7")  col-md-5">
+            @using (Html.BeginForm("Market", "Home"))
+            {
+                <text>Επιλέξτε Market: </text>
+                <select name="id" id="searchAuction"></select>
+
+                <button id="id" type="submit" style="background-color: #3eb16f;" class="btn">Αναζήτηση</button>
+            }
+        </div>
+    </div>
+</div>
+
+<br />
+
+@if (Model.HasEntries)
+{
+    <div class="row-fluid">
+        <div class="col-xs-6 boot1">
+            <div class="table-responsive">
+                <p class="par1">ΖΗΤΗΣΗ</p>
+                <table id="buyers" class="table-responsive table-hover table-bordered">
+                    <thead>
+                        <tr id="filters">
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th class="text-center">#</th>
+                            <th class="text-center">ΑΓΟΡΑΣΤΗΣ</th>
+                            <th class="product text-center">ΠΡΟΪΟΝ</th>
+                            <th></th>
+                            <th class="text-center quantity">ΠΟΣΟΤΗΤΑ (kg)</th>
+                            <th class="text-center">ΤΙΜΗ (kg)</th>
+                            <th class="text-center">ΗΜΕΡ. ΠΑΡΑΔΟΣΗΣ</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+        <div class="col-xs-6 boot2">
+            <div class="table-responsive">
+                <p class="par2">ΠΡΟΣΦΟΡΑ</p>
+                <table id="sellers" class="table-responsive table-hover table-bordered">
+                    <thead>
+                        <tr id="filters2">
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <th class="text-center" stye="font-weight: bold; text-align: center;">#</th>
+                            <th class="text-center">ΠΩΛΗΤΗΣ</th>
+                            <th class="text-center">ΠΡΟΪΟΝ</th>
+                            <th></th>
+                            <th class="text-center">ΠΟΣΟΤΗΤΑ (kg)</th>
+                            <th class="text-center">ΤΙΜΗ (kg)</th>
+                            <th class="text-center">ΗΜΕΡ. ΠΑΡΑΔΟΣΗΣ</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+else
+{
+    <p>Δεν υπάρχουν καταχωρίσεις στην τρέχουσα αγορά αυτη τη στιγμή.</p>
+}
+
+
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            // variables
+            var auctionId = '@Model.Id';
+            var userId = '@User.Identity.GetUserId()';
+            var isActive = '@Model.IsActive';
+            var editAction = '@Url.Action("Edit", "MarketEntries")';
+
+            // buyers table
+            MarketController.buyersInit("#buyers", auctionId, userId, isActive, editAction);
+            // sellers table
+            MarketController.sellersInit("#sellers", auctionId, userId, isActive, editAction);
+
+            // Auctions SelectList Api
+            var currentYear = '@Model.CurrentYear';
+            MarketController.auctionsDropdown(currentYear, auctionId);
+
+            // Countdown Timer
+            var endTime = '@Model.EndTime';
+            countdownTimer.clock(endTime);
+        });
+    </script>
+}

@@ -1,0 +1,61 @@
+﻿@model FarmTradeApp.Core.ViewModels.FinalProductFormViewModel
+@{
+    ViewBag.Title = "FinalProductForm";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Farmer Product Form</h2>
+@using (Html.BeginForm("Save", "FinalProducts"))
+{
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary()
+    @Html.HiddenFor(m => m.FinalProduct.Id)
+
+    <div class="form-group">
+        @Html.LabelFor(m => m.FinalProduct.ProductId, "Product")
+        @Html.DropDownListFor(m => m.FinalProduct.ProductId, new SelectList(Model.Products, "Id", "Name"), "Select Product", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FinalProduct.ProductId)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.FinalProduct.QualityId, "Quality")
+        @Html.DropDownListFor(m => m.FinalProduct.QualityId, new SelectList(Model.ProductQualities, "Id", "Grade"), "Select Quality", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FinalProduct.QualityId)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.FinalProduct.Quantity)
+        @Html.TextBoxFor(m => m.FinalProduct.Quantity, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FinalProduct.Quantity)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.FinalProduct.LocationId, "Location")
+        @Html.DropDownListFor(m => m.FinalProduct.LocationId, new SelectList(Model.Locations, "Id", "City"), "Select Location", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FinalProduct.LocationId)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.FinalProduct.StorageId, "Storage")
+        @Html.DropDownListFor(m => m.FinalProduct.StorageId, new SelectList(Model.Storages, "Id", "Name"), "Select Storages", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FinalProduct.StorageId)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.FinalProduct.ImportDateToStorage)
+        @Html.TextBoxFor(m => m.FinalProduct.ImportDateToStorage, "{0:d MMM yyyy}", new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FinalProduct.ImportDateToStorage)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.FinalProduct.IsOrganic, "Organic Product")
+        @Html.CheckBoxFor(m => m.FinalProduct.IsOrganic)
+        @Html.ValidationMessageFor(m => m.FinalProduct.IsOrganic)
+    </div>
+    <div class="form-group">
+        @Html.LabelFor(m => m.FinalProduct.Comments)
+        @Html.TextBoxFor(m => m.FinalProduct.Comments, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.FinalProduct.Comments)
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+}

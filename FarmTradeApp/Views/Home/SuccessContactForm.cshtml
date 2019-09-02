@@ -1,0 +1,13 @@
+﻿@model FarmTradeApp.Core.Models.Contacts.ContactForm
+
+@{
+    ViewBag.Title = "Message Sended";
+}
+
+<h2 class="alert-info">Message Sent</h2>
+<div class="messagesent alert-success col-md-8">
+    Αγαπητέ/ή  @Model.Sender.FullName, παραλάβαμε το μήνυμά σας.<br>
+    Θα σας απαντήσουμε το ταχύτερο δυνατό στο @Model.Sender.Email <br>
+    Ελέγξτε τον φακέλο Spam σε περίπτωση που δεν βρείτε απάντηση στα Εισερχόμενά σας.<br>
+    @Html.ActionLink("Επιστροφή", "Index")
+</div>

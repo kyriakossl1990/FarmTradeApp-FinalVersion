@@ -1,0 +1,33 @@
+﻿@model IEnumerable<FarmTradeApp.Core.Models.Location>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Τοποθεσίες</h2>
+
+
+<table class="table table-bordered table-hover" style="text-align:center; width: 500px">
+    <thead>
+        <tr>
+            <th style="text-align:center">City</th>
+            <th style="text-align:center">Post Code</th>
+            <th style="text-align:center">Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var location in Model)
+        {
+            <tr>
+                <td> @Html.ActionLink(location.City, "Edit", "Locations", new { id = location.Id }, null) </td>
+                <td>@location.PostalCode</td>
+                <td>
+                    @Html.ActionLink("Delete", "Delete", "Locations", new { id = location.Id }, null)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<br />
+<p>
+    @Html.ActionLink("New Location", "New", "Locations", null, new { @class = "btn btn-primary" })
+</p>

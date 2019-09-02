@@ -1,0 +1,52 @@
+﻿@*@model IEnumerable<Farm_Trade.Core.Models.Storage>*@
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Αποθήκες</h2>
+
+@*@if (!Model.Any())
+    {
+        <p>We don't have any storages yet.</p>
+    }*@
+
+<table id="storages" class="table table-bordered table-hover">
+    <thead>
+        <tr>
+            <th>Όνομα Αποθήκης</th>
+            <th>Περιοχή</th>
+            <th>Οδός</th>
+            <th>Ταχυδρομικός Κώδικας</th>
+            <th>Διαγραφή</th>
+        </tr>
+    </thead>
+    <tbody>
+        @*@foreach (var storage in Model)
+            {
+                <tr>
+                    <td>@Html.ActionLink(storage.Name, "Edit", "Storages", new { id = storage.StorageID}, null)</td>
+                    <td>@storage.Location.District</td>
+                    <td>@storage.Location.PostalCode</td>
+                    <td>
+                        <button data-storage-id="@storage.StorageID" class="btn-link js-delete">Delete</button>
+                    </td>
+                </tr>
+            }*@
+    </tbody>
+</table>
+
+
+<p>
+    @Html.ActionLink("Νέα Αποθήκη", "New", "Storages", null, new { @class = "btn btn-primary" })
+</p>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            StorageController.initTable("#storages");
+            StorageController.initDelete("#storages");
+        });
+    </script>
+}

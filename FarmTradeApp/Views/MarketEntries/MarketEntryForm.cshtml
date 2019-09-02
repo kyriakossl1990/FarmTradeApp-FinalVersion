@@ -1,0 +1,103 @@
+﻿@model FarmTradeApp.Core.ViewModels.MarketEntryFormViewModel
+@using FarmTradeApp.Helpers
+
+@{
+    ViewBag.Title = "MarketEntryForm";
+}
+
+<h2>@Model.Heading</h2>
+
+@if (!Model.FinalProductsAvailable)
+{
+    <p>
+        Φαίνεται οτι δεν έχετε καταχωρίσει ακόμα διαθέσιμα προϊόντα σε κάποια αποθήκη προς χρήση
+        στην αγορά.
+    </p>
+
+    <p><input type="button" class="btn btn-primary" value="Προσθήκη προϊόντος" onclick="location.href='@Url.Action("New", "FinalProducts")'" /></p>
+}
+else
+{
+    using (Html.BeginForm(Model.Action, "MarketEntries"))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.HiddenFor(m => m.Id)
+
+        if (Model.Id != 0 && User.IsInRole(RoleName.Buyer))
+        {
+            @Html.HiddenFor(m => m.FinalProductId)
+        }
+        else if (Model.Id != 0 && User.IsInRole(RoleName.Buyer))
+        {
+            @Html.HiddenFor(m => m.ProductId)
+            @Html.HiddenFor(m => m.ProductQualityId)
+        }
+
+        if (Model.IsBuyerForm)
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.ProductId, "Προϊόν")
+                @Html.DropDownListFor(m => m.ProductId, new SelectList(Model.Products, "ID", "Name"), "Επιλέξτε Προϊόν", new { @class = "form-control", autofocus = "autofocus" })
+                @Html.ValidationMessageFor(m => m.ProductId)
+            </div>
+
+            <div class="form-group">
+                @Html.LabelFor(m => m.ProductQualityId, "Επιθυμητή Ποιότητα")
+                @Html.DropDownListFor(m => m.ProductQualityId, new SelectList(Model.ProductQualities, "ID", "Grade"), "Επιλέξτε Ποιότητα", new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.ProductQualityId)
+            </div>
+        }
+        else
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.FinalProductId, "Προϊόν")
+                @Html.DropDownListFor(m => m.FinalProductId, new SelectList(Model.FinalProducts.Select(p => new { Id = p.Id, Name = p.Product.Name + " " + p.Quality.Grade }), "Id", "Name"), "Επιλέξτε Προϊόν", new { @class = "form-control", autofocus = "autofocus" })
+                @Html.ValidationMessageFor(m => m.FinalProductId)
+            </div>
+        }
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.EntryQuantity, (User.IsInRole(RoleName.Buyer) ? "Ζητούμενη Ποσότητα (κιλά)" : "Ποσότητα (κιλά)"))
+            @Html.TextBoxFor(m => m.EntryQuantity, new { @class = "form-control", data_rule_validquantity = "true", placeholder = "πχ 1000", Value = Model.EntryQuantity == 0 ? "" : Model.EntryQuantity.ToString() })
+            @Html.ValidationMessageFor(m => m.EntryQuantity)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.EntryPrice, (User.IsInRole(RoleName.Buyer) ? "Επιθυμητή Τιμή Αγοράς (€)" : "Επιθυμητή Τιμή Πώλησης (€)"))
+            @Html.TextBoxFor(m => m.EntryPrice, new { @class = "form-control", placeholder = "πχ 0.20", Value = Model.EntryPrice == 0 ? "" : Model.EntryPrice.ToString() })
+            @Html.ValidationMessageFor(m => m.EntryPrice)
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.DeliveryDate, (User.IsInRole(RoleName.Buyer) ? "Επιθυμητή Ημερομηνία Παράδοσης" : "Αναμενόμενη Ημερομηνία Παράδοσης"))
+            @Html.EditorFor(m => m.DeliveryDate, new { htmlAttributes = new { @class = "form-control", data_rule_validdate = "true" } })
+            @Html.ValidationMessageFor(m => m.DeliveryDate)
+        </div>
+
+        if (User.IsInRole(RoleName.Buyer))
+        {
+            <div class="form-group">
+                @Html.LabelFor(m => m.DeliveryLocation, "Επιθυμητή Τοποθεσία Παράδοσης")
+                @Html.TextBoxFor(m => m.DeliveryLocation, new { @class = "form-control", data_rule_requiredlocation = "true", placeholder = "Αθήνα" })
+                @Html.ValidationMessageFor(m => m.DeliveryLocation)
+            </div>
+        }
+
+        <button type="submit" class="btn btn-primary">Save</button>
+    }
+}
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/jqueryval")
+    <script src="~/Scripts/app/customValidations/marketEntryFormValidations.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            MarketEntryFormValidations.deliveryDateValidation();
+            MarketEntryFormValidations.entryQuantityValidation();
+            MarketEntryFormValidations.entryQuantityValidation();           
+        });
+    </script>
+}

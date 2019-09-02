@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "";
+}
+
+<head>
+    <style>
+        body {
+            background-image: url(../../Content/img/bg_dark.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            color: white;
+        }
+
+        .jumbotron {
+            background: unset;
+        }
+
+        h2 {
+            color: white;
+            font-size:40px;
+        }
+    </style>
+</head>
+
+<div class="jumbotron"  style="padding-left: 0px;">
+    <h1 style="font-size: 92px;">Farm Trade</h1>
+    <p class="lead">Η μεγαλύτερη αγορά αγροτικών προϊόντων στην Ελλάδα</p>
+
+    @if (User.Identity.IsAuthenticated)
+    {
+        <p><input type="button" class="btn" value="Κάνε καταχώριση" style="background-color: #3eb16f; border-color:wheat" onclick="location.href='@Url.Action("New", "MarketEntries")'" /></p>
+    }
+    else
+    {
+        <p><input type="button" class="btn btn-primary" value="Γίνε μέλος" style="background-color: #3eb16f; border-color: wheat; font-size: large; margin-top: 25px;" onclick="location.href='@Url.Action("Register", "Account")'" /></p>
+    }
+
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Δυναμικό market</h2>
+        <p>
+            Αυτόματη ενημέρωση καταχωρίσεων για όλα τα προϊόντα που σε ενδιαφέρουν!
+        </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301865">Μάθε περισσότερα &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Χωρίς μεσάζοντες</h2>
+        <p>Έως και 80% περισσότερο κέρδος από κάθε συναλλαγή αποφεύγοντας τρίτους!</p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Μάθε περισσότερα &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Αυτόματα deals</h2>
+        <p>Άσε το σύστημα να επιλέξει για σένα το ιδανικότερο και ευνοϊκότερο deal! </p>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Μάθε περισσότερα &raquo;</a></p>
+    </div>
+</div>
+
+@section customFooter
+{
+<div id="footer-index">
+    @*<footer></footer>*@
+    <p><strong>&copy; @DateTime.Now.Year .Federal .Agricultural .Relational .Model</strong></p>
+</div>
+}

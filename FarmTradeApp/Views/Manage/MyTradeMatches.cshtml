@@ -1,0 +1,42 @@
+﻿@using Microsoft.AspNet.Identity;
+@using FarmTradeApp.Helpers;
+
+@{
+    ViewBag.Title = "Οι συμφωνίες μου";
+}
+
+<h2>Οι συμφωνίες μου</h2>
+
+
+<br /><br />
+
+<div class="row">
+    <div class="col-md-12">
+        <table id="my-tradeMatches" class="table table-responsive table-hover table-bordered display" style="width:100%">
+            <thead>
+                <tr>
+                    <th class="text-center">MARKET</th>
+                    <th class="text-center">ΠΡΟΪΟΝ</th>
+                    <th class="text-center">ΠΟΙΟΤΗΤΑ</th>
+                    <th class="text-center">ΣΥΝΑΛΛΑΣΣΟΜΕΝΗ ΠΛΕΥΡΑ </th>
+                    <th class="text-center">ΠΟΣΟΤΗΤΑ (kg)</th>
+                    <th class="text-center">ΤΙΜΗ (kg)</th>
+                    <th class="text-center">Πληρωμή </th>
+                    <th class="text-center">Παράδοση </th>
+                </tr>
+            </thead>
+        </table>
+    </div>
+</div>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            var userId = '@User.Identity.GetUserId()';
+            var userRole = '@User.IsInRole(RoleName.Buyer)' === "True" ? "buyer" : "seller";
+
+            MyTradeMatchesController.init("#my-tradeMatches", userId, userRole);
+           });
+    </script>
+}

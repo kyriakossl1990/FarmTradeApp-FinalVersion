@@ -1,0 +1,50 @@
+﻿@model FarmTradeApp.Core.Models.Contacts.ContactForm
+
+@{
+    ViewBag.Title = "Contact Form";
+}
+
+<h2>Φόρμα Επικοινωνίας</h2>
+@using (Html.BeginForm("Contact", "Home", FormMethod.Post))
+{
+    @Html.HiddenFor(m => m.SenderId)
+    @Html.HiddenFor(m => m.TimeFormSent)
+    @Html.AntiForgeryToken()
+
+    <form id="ContactForm">
+        <p class="alert alert-info">All Fields are Required</p>
+        <p class="alert alert-warning">Please use a working email address !!!!</p>
+        <div class="form-group">
+            @Html.LabelFor(m => m.Sender.FullName)
+            @Html.TextBoxFor(m => m.Sender.FullName, new { @class = "form-control", autofocus = "autofocus" })
+            @*@Html.ValidationMessageFor(m => m.Senter.FullName)*@
+        </div>
+
+        <div class="form-group">
+
+            @Html.LabelFor(m => m.Sender.Email)
+            @Html.TextBoxFor(m => m.Sender.Email, new { @class = "form-control" })
+            @*@Html.ValidationMessageFor(m => m.Senter.Email)*@
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Subject)
+            @Html.TextBoxFor(m => m.Subject, new { @class = "form-control", placeholder = "Enter a subject" })
+            @*@Html.ValidationMessageFor(m => m.Subject)*@
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.Message)
+            @Html.TextAreaFor(m => m.Message, new { @class = "form-control", placeholder = "Enter your message" })
+            @*@Html.ValidationMessageFor(m => m.Message)*@
+        </div>
+
+        <div class="form-group">
+            @Html.LabelFor(m => m.ContactFormType)
+            @Html.EnumDropDownListFor(m => m.ContactFormType, "Επιλέξτε", new { @class = "form-control" })
+            @*@Html.ValidationMessageFor(m => m.ContactFormType)*@
+        </div>
+
+        <button type="submit" class="btn btn-primary">Αποστολή</button>
+    </form>
+}

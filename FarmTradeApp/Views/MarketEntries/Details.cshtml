@@ -1,0 +1,27 @@
+﻿@model int
+
+@{
+    ViewBag.Title = "Λεπτομέρειες Καταχώρισης";
+}
+
+<h2>Λεπτομέρειες Καταχώρισης</h2>
+
+<ul>
+    <li id="entryDate"></li>
+    <li id="auction"></li>
+    <li id="product"></li>
+    <li id="quantity"></li>
+    <li id="price"></li>
+    <li id="delivery"></li>
+    <li id="location"></li>
+</ul>
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            var marketEntryId = '@Model';
+            MarketEntryDetailsController.init(marketEntryId);
+        });
+    </script>
+}

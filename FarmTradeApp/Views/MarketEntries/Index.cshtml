@@ -1,0 +1,122 @@
+﻿@model IEnumerable<FarmTradeApp.Core.Models.Market.MarketEntry>
+
+@using Microsoft.AspNet.Identity
+@using FarmTradeApp.Helpers
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<h2>Καταχωρίσεις Market</h2>
+<p>
+    @*@Html.ActionLink("Νέα Καταχώριση", "New")*@
+    <input type="button" class="btn" value="Νέα Καταχώριση" style="background-color: #3eb16f" onclick="location.href='@Url.Action("New", "MarketEntries")'" />
+</p>
+
+<table id="marketEntries" class="table">
+    <thead>
+        <tr>
+            <th>
+                USER
+            </th>
+            <th>
+                ΠΡΟΙΟΝ
+            </th>
+            <th>
+                ΗΜΕΡΟΜΗΝΙΑ ΕΓΓΡΑΦΗΣ
+            </th>
+            <th>
+                ΗΜΕΡΟΜΗΝΙΑ ΠΑΡΑΔΟΣΗΣ
+            </th>
+            <th>
+                ΤΙΜΗ(Ευρώ/Κιλό)
+            </th>
+            <th>
+                ΠΟΣΟΤΗΤΑ(Κιλά)
+            </th>
+            <th>
+                ΖΗΤΗΣΗ/ΠΑΡΟΧΗ
+            </th>
+            <th>
+                ΤΟΠΟΣ ΠΑΡΑΔΟΣΗΣ
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+
+    @foreach (var item in Model)
+    {
+        <tbody class="marketEntriesIndex">
+
+            @{
+
+                var className = User.Identity.GetUserId() == item.User.Id ? "alert-success" : null;
+            }
+
+            <tr class="@className ">
+
+                @if (item.EntryType == FarmTradeApp.Core.Models.Market.EntryType.Demand)
+                {
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.CompanyName)
+                    </td>
+                }
+                else
+                {
+                    <td>
+                        @item.User.FirstName @item.User.LastName
+                    </td>
+                }
+                <td>
+                    @Html.DisplayFor(modelItem => item.FinalProduct.Product.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EntryDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DeliveryDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EntryPrice)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EntryQuantity)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EntryType)
+                </td>
+                <td>
+                    @if (item.EntryType == FarmTradeApp.Core.Models.Market.EntryType.Demand)
+                    {
+                        @Html.DisplayFor(modelItem => item.DeliveryLocation)
+                    }
+                    else
+                    {
+                        <text> - </text>
+                    }
+                </td>
+
+                <td class="actions">
+                    @if (User.Identity.GetUserId() == item.UserId)
+                    {
+
+                        <a href="@Url.Action("Edit", "MarketEntries", new { id = item.Id })">Edit</a>
+
+                        <button class="btn-link js-remove-marketEntry" data-marketEntry-id="@item.Id">Remove</button>
+                    }
+                </td>
+            </tr>
+        </tbody>
+
+    }
+</table>
+
+
+@section scripts
+{
+    <script>
+        $(document).ready(function () {
+            MarketEntriesController.init("#marketEntries");
+        });
+    </script>
+}

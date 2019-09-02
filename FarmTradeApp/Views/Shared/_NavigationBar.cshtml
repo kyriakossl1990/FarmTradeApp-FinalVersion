@@ -1,0 +1,192 @@
+﻿@using FarmTradeApp.Helpers
+
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                @Html.ActionLink("Farm Trade", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+                <li>@Html.ActionLink("MarketPlace", "Market", "Home", new { id = "" }, null)</li>
+
+
+                @if (User.IsInRole(RoleName.Administrator))
+                {
+
+                    <li>@Html.ActionLink("Αποθηκευμένη Σοδειά", "Index", "FinalProducts")</li>
+                    <li class="dropdown nav navbar-nav navbar-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin Panel<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            @*<li>@Html.ActionLink("CRUD on Buyers", "***", "Home")</li>
+                    <li>@Html.ActionLink("CRUD on Sellers", "***", "Home")</li>
+                    <li>@Html.ActionLink("CRUD on All Users", "***", "Home")</li>
+                    <li role="separator" class="divider"></li>*@
+                            <li>@Html.ActionLink("Market Entries", "Index", "MarketEntries", new { id = "" }, null)</li>
+                            <li>@Html.ActionLink("Προϊόντα", "Index", "Products")</li>
+                            <li role="separator" class="divider"></li>
+                            <li>@Html.ActionLink("Αποθήκες", "Index", "Storages")</li>
+                            <li>@Html.ActionLink("Τοποθεσίες", "Index", "Locations")</li>
+
+                            <li role="separator" class="divider"></li>
+                            <li> @Html.ActionLink("Φόρμες Επικοινωνίας", "ViewAllContactForms", "AdminPanel")</li>
+                            <li role="separator" class="divider"></li>
+                            <li>@Html.ActionLink("Διαχείριση Market", "ManageAuctions", "Manage")</li>
+                        </ul>
+                    </li>
+                }
+                else
+                {
+                    <li>@Html.ActionLink("Market Entries", "Index", "MarketEntries", new { id = "" }, null)</li>
+                    <li>@Html.ActionLink("Σοδειά", "Index", "FinalProducts")</li>
+                    <li>@Html.ActionLink("Επικοινωνία", "Contact", "Home")</li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Σχετικά<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("Ομάδα", "About", "Home")</li>
+                            <li>@Html.ActionLink("ToS", "tos", "Home")</li>
+                            <li>@Html.ActionLink("FAQ", "faq", "Home")</li>
+                        </ul>
+                    </li>
+                    
+                }
+
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+    </div>
+</div>
+
+@*<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                @Html.ActionLink("Farm Trade", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+
+                @if (User.IsInRole(RoleName.Administrator))
+                {
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Προϊόντα<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("Προϊόντα", "Index", "Products")</li>
+                            <li>@Html.ActionLink("Αποθηκευμένη Σοδειά", "Index", "FinalProducts")</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Αποθήκες<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("Αποθήκες", "Index", "Storages")</li>
+                            <li>@Html.ActionLink("Τοποθεσίες", "Index", "Locations")</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown nav navbar-nav navbar-right">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Admin Panel<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("CRUD on Buyers", "***", "Home")</li>
+                            <li>@Html.ActionLink("CRUD on Sellers", "***", "Home")</li>
+                            <li>@Html.ActionLink("CRUD on All Users", "***", "Home")</li>
+                            <li role="separator" class="divider"></li>
+                            <li>@Html.ActionLink("CRUD on Products", "Index", "Products")</li>
+                            <li role="separator" class="divider"></li>
+                            <li>@Html.ActionLink("CRUD on Storages", "Index", "Storages")</li>
+                            <li>@Html.ActionLink("CRUD on Locations", "Index", "Locations")</li>
+                            <li role="separator" class="divider"></li>
+                            <li>@Html.ActionLink("Διαχείριση Market", "ManageAuctions", "Manage")</li>
+                        </ul>
+                    </li>
+                }
+                else if (User.IsInRole(RoleName.Seller))
+                {
+                    <li>@Html.ActionLink("Αποθηκευμένη Σοδειά", "Index", "FinalProducts")</li>
+                }
+
+                @if (User.IsInRole(RoleName.Seller) && !User.Identity.IsAuthenticated)
+                {
+                    <li>@Html.ActionLink("Verification Form", "VerificationForm", "Home")</li>
+                }
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Market<span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li>@Html.ActionLink("MarketPlace", "Market", "Home", new { id = "" }, null)</li>
+                        <li>@Html.ActionLink("Market Entries", "Index", "MarketEntries", new { id = "" }, null)</li>
+                    </ul>
+                </li>
+
+                @if (!User.IsInRole(RoleName.Administrator))
+                {
+                    <li>@Html.ActionLink("Σχετικά", "About", "Home")</li>
+                    <li>@Html.ActionLink("Επικοινωνία", "Contact", "Home")</li>
+                    <li>@Html.ActionLink("ToS", "tos", "Home")</li>
+                    <li>@Html.ActionLink("FAQ", "faq", "Home")</li>
+                }
+
+            </ul>
+            @Html.Partial("_LoginPartial")
+        </div>
+    </div>
+</div>*@
+
+@*@using FarmTradeApp.Helpers
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                @Html.ActionLink("Farm Trade", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                    @if (User.IsInRole(RoleName.Administrator))
+                    {
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Προϊόντα<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("Προϊόντα", "Index", "Products")</li>
+                                <li>@Html.ActionLink("Αποθηκευμένη Σοδειά", "Index", "FinalProducts")</li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Αποθήκες<span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li>@Html.ActionLink("Αποθήκες", "Index", "Storages")</li>
+                                <li>@Html.ActionLink("Τοποθεσίες", "Index", "Locations")</li>
+                            </ul>
+                        </li>
+                    }
+                    else if (User.IsInRole(RoleName.Seller))
+                    {
+                        <li>@Html.ActionLink("Αποθηκευμένη Σοδειά", "Index", "FinalProducts")</li>
+                    }
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Market<span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li>@Html.ActionLink("MarketPlace", "Market", "Home", new { id = "" }, null)</li>
+                            <li>@Html.ActionLink("Market Entries", "Index", "MarketEntries", new { id = "" }, null)</li>
+                        </ul>
+                    </li>
+
+                    <li>@Html.ActionLink("Σχετικά", "About", "Home")</li>
+                    <li>@Html.ActionLink("Επικοινωνία", "Contact", "Home")</li>
+                </ul>
+                @Html.Partial("_LoginPartial")
+            </div>
+        </div>
+    </div>*@
